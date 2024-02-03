@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Audio for Speech Recognition</title>
+</head>
+<body>
+
+<h2>Upload Audio File</h2>
+<form action="http://127.0.0.1:5000/recognize" method="post" enctype="multipart/form-data">
+    Select audio to upload:
+    <input type="file" name="file" id="file">
+    <input type="submit" value="Upload Audio" name="submit">
+</form>
+
+</body>
+</html>
